@@ -1,0 +1,273 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+  
+.iframeContainer {
+  padding: 20px;
+  border: 1px solid #e3e3e3;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Padding bottom by footer height */
+  padding-bottom: 80px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 16px;
+}
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  line-height: 18px;
+  color: #555;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+.navbaractive{
+    
+  color:white;
+  font-size:30px;
+  font-weight: bold;
+  background-color: #48C9B0;
+  padding: 10px;
+}
+.navbar-default{
+  background-color: white;
+  color: darkslategrey
+}
+
+
+
+h1{
+font-weight: bold;
+text-align: center;
+
+}
+.grayback{
+  background-color:lightgray;
+}
+.whiteback{
+  background-color:white;
+}
+.whiteback2{
+  background-color:white;
+}
+.majorphoto{
+  display:block;
+  width: 400px;
+  margin-right: auto;
+  margin-left:auto;
+  margin-bottom: 20px;
+  
+}
+.majorphoto1{
+  display:block;
+  width: 500px;
+  margin-right: auto;
+  margin-left:auto;
+
+  
+  
+  
+}
+
+.majorphotot{
+  display:block;
+  width: 600px;
+  margin-right: auto;
+  margin-left:auto;
+  margin-bottom: 20px;
+}
+
+.summary{
+  color:gray;
+  font-size:15px;
+  background-color:white;
+  margin-left:20px;
+  margin-right:20px;
+  margin-bottom: 20px;
+ 
+}
+h2{
+  color:black;
+  font-weight: bold;
+  font-size:20px;
+  margin-left:20px;
+}
+
+.side{ position: relative;
+  height: 350px;
+  width: 400px;
+  
+}
+
+.side1{
+  height:120px;
+  width:120px;
+  position: relative;;
+  top:10%;
+  left:10%;
+}
+.side1:hover{
+  border: 3px solid rgb(20, 180, 164);
+}
+.side2{
+  height:120px;
+  width:120px;
+  position:absolute;
+  top:10%;
+  right:10%;
+}
+.side2:hover{
+  border: 3px solid rgb(20, 180, 164);
+}
+.side3{
+  height:120px;
+  width:120px;
+  position:absolute;
+  bottom:10%;
+  left:10%;
+}
+.side3:hover{
+  border: 3px solid rgb(20, 180, 164);
+}
+.side4{
+  height:120px;
+  width:120px;
+  position:absolute;
+  bottom:10%;
+  right:10%;
+}
+.side4:hover{
+  border: 3px solid rgb(20, 180, 164);
+}
+
+@media only screen and (max-width:990px){
+  .side{position: relative;
+      height: 200px;
+      width: 200px;
+      
+
+  }
+  .side1{
+      height:80px;
+      width:80px;
+      position: relative;;
+      top:10%;
+      left:10%;
+}
+  .side2{
+      height:80px;
+      width:80px;
+      position: relative;;
+      top:10%;
+      left:10%;
+  }.side3{
+      height:80px;
+      width:80px;
+      position: relative;;
+      top:10%;
+      left:10%;
+  }.side4{
+      height:80px;
+      width:80px;
+      position: relative;;
+      top:10%;
+      left:10%;
+  }
+  .whiteback{background-color: #48C9B0;
+
+  }
+ 
+ 
+  }
+@media only screen and (max-width:768px){
+  .side{ position: relative;
+     size:100%;
+      width: 100%;
+      
+  }
+  .side1{
+      position:absolute;
+      size:100%;
+      top:10%;
+      left:5%;
+  }
+  .side2{
+      position:absolute;
+      size:100%;
+      top:10%;
+      left:25%;
+  }
+  .side3{
+      position:absolute;
+      size:100%;
+      top:10%;
+      left:45%;
+  }
+  .side4{
+      position:absolute;
+      size:100%;
+      top:10%;
+      left:65%;
+  }
+
+.navbaractive{
+  
+  color:white;
+  font-size:30px;
+  
+  
+  font-weight: bold;
+  background-color: #48C9B0;
+  padding: 10px;
+}
+.green{
+  background-color:#48C9B0;
+}
+.comparison1{
+  width:100px;
+ 
+}
+.comparison2{
+  width:100px;
+  
+}
+}
+
+
+.intro{
+  margin-left:20px;
+  margin-right:20px
+}
+.table{
+  width:500px;
+}
